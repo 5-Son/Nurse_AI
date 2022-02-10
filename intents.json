@@ -1,0 +1,279 @@
+{
+    "intents": [
+      {
+        "tag": "1",
+        "patterns": [
+            "Hi pastor Zimmerman. My name is Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hi pastor Zimmerman. My name is. I am a nurse practitioner student. I will be working with you today.",
+            "Hi Zimmerman. My name is. I'm a nurse practitioner student. I'll be working with you.",
+            "Hello. My name is . I am a nurse practitioner student. I will be talking with you today.",
+            "Hi pastor Zimmerman. I am Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hi pastor Zimmerman. I am Branden Kay. I am a nurse practitioner student. I will be talking with you today.",
+            "Hi pastor Zimmerman. I am . I am a nursing student. I will be working with you today.",
+            "Hi pastor Zimmerman. I am . I am a nursing student. I will be talking with you today.",
+            "Hi pastor Zimmerman. I'm Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hi pastor. I'm . I am a nursing practitioner student. I will be talking with you today.",
+            "Hello pastor Zimmerman. My name is Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hello pastor . My name is Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hello. My name is Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hello pastor Zimmerman. I am Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hello pastor. I am Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hello. I am Branden Kay. I am a nurse practitioner student. I will be working with you today.",
+            "Hello pastor Zimmerman. My name is Branden Kay. I am a nurse practitioner student. I will be talking with you today.",
+            "Hello pastor. My name is Branden Kay. I am a nurse practitioner student. I will be talking with you today.",
+            "Hello. My name is Branden Kay. I am a nurse practitioner student. I will be talking with you today.",
+            "Hello pastor Zimmerman. My name is Branden Kay. I am a nursing student. I will be working with you today.",
+            "Hello pastor. My name is Branden Kay. I am a nursing student. I will be working with you today.",
+            "Hello. My name is Branden Kay. I am a nursing student. I will be working with you today.",
+            "Hello pastor Zimmerman. My name is Branden Kay. I am a nursing student. I will be talking with you today.",
+            "Hello pastor. My name is Branden Kay. I am a nursing student. I will be talking with you today.",
+            "Hello. My name is Branden Kay. I am a nursing student. I will be talking with you today."
+        ],
+        "responses": [
+          "ok (response for 1)"
+        ]
+      },
+      {
+        "tag": "2",
+        "patterns": [
+            "I understand you were here because you had a nodule removed in your throat. Is that correct?",
+            "You are here because you had a nodule removed from your throat, right?",
+            "You are here to check on a nodule you had removed in your throat. Is that correct?",
+            "I understand you are here to check on a nodule you had removed in your throat. Is that correct?",
+            "You are visiting because you had a nodule removed from your throat, correct?",
+            "You are visiting because you had a nodule removed from your throat. Is that correct?"
+            ],
+        "responses": [
+            "Respone for 2"
+        ]
+      },
+      {
+        "tag": "3",
+        "patterns": [
+            "Okay. Do you mind just telling me a little bit about yourself?",
+            "Got it. Could you tell me a little bit about yourself?",
+            "Sounds good, can you tell me more about yourself?",
+            "I see. Can you tell me about yourself some more?",
+            "Thank you. Can you tell me more about yourself?"
+            ],
+        "responses": [
+            "(Respone for 3) Well. I've been pastoring the church for the last 25 years and I have built up a nice congregation. My wife's at home with Alzheimer's. I feel very guilty these days because I've been drinking pretty heavily and I don't want to disappoint people. But it’s the only way I’ve been able to cope lately."
+        ]
+      },
+      {
+        "tag": "4",
+        "patterns": [
+            "Okay. Can you tell me a little bit more about your wife?",
+            "Thanks. Could you tell me about your wife?",
+            "I see. Can you tell me more about your wife?",
+            "Sounds good. Can you tell me a little bit more about your wife?",
+            "Thank you. Can you tell me a little bit more about your wife?"
+        ],
+        "responses": [
+          "Respone for 4"
+        ]
+      },
+      {
+        "tag": "5",
+        "patterns": [
+            "That sounds like it would be incredibly hard. So it sounds like you are using alcohol as a coping mechanism.",
+            "That sounds incredibly hard. And it sounds like you are using alcohol to cope with it.",
+            "That sounds difficult and it seems like you are using alcohol as a coping mechanism.",
+            "That sounds very hard. You may be using alcohol as a coping mechanism.",
+            "Sounds difficult. It seems that you are using alcohol as a coping mechanism."
+        ],
+        "responses": [
+          "Respone for 5"
+        ]
+      },
+      {
+        "tag": "6",
+        "patterns": [
+            "Okay, you completed the audit, it's an alcohol use assessment today. We give it to all of our patients. Is it ok if I go over it with you?",
+            "Now, today, you have completed an audit of your alcohol use assessment. It's been given to all the patients. Do you mind if I review it with you?",
+            "You completed the audit, which is an alcohol use assessment. We give it to all of our patients. Is it ok if I go over it with you?",
+            "You have completed the audit, an alcohol use assessment. We give it to all of our patients. Is it ok if I go over it with you?",
+            "You have completed the audit, an alcohol use assessment. We have given it to all of our patients. Is it ok if I go over it with you?",
+            "You have completed the audit, an alcohol use assessment. We have given it to all of our patients. Is it fine if I go over it with you?"
+        ],
+        "responses": [
+            "Respone for 6"
+        ]
+      },
+      {
+        "tag": "7",
+        "patterns": [
+            "Okay you scored a 16 which means you are drinking it at risk levels and I understand it is something that you are using to cope with a lot going on at home. But I just wanted to give you some feedback on that. Obviously there are good and bad things about your drinking. Are you able to name some of the benefits you get?",
+            "A score of 16 means that you are drinking at a risky level, but I understand that it is what you use to cope with various events at home. But I just wanted to give you some feedback on that. Obviously there are good and bad things about your drinking. Are you able to name some of the benefits you get?",
+           "You scored a 16 which means you are drinking at risk levels. I understand it is something that you are using to cope with your home life. But I wanted to give you feedback on that.There are pros and cons to your drinking. Can you give me some benefits you get?",
+           "So a score of 16 means you are drinking at a risky level. However it makes sense considering you are using it to cope with your home life. I want to give you feedback on your drinking. There are good and bad things to your drinking. Are you able to name some of the benefits you get?"
+        ],
+        "responses": [
+          "Respone for 7"
+        ]
+      },
+      {
+        "tag": "8",
+        "patterns": [
+            "Okay, can you name some of the negatives as well?",
+            "Very well, can you name some of the negatives as well?",
+            "Can you name some of the negatives as well?",
+            "What are some of the negatives?",
+            "What are some of the negatives you can name?",
+            "Can you list some of the negatives?",
+            "Can you list some of the cons?"
+        ],
+        "responses": [
+          "Respone for 8"
+        ]
+      },   
+      {
+        "tag": "9",
+        "patterns": [
+            "Okay, can you name some of the negatives as well?",
+            "Very well, can you name some of the negatives as well?",
+            "Can you name some of the negatives as well?",
+            "What are some of the negatives?",
+            "What are some of the negatives you can name?",
+            "Can you list some of the negatives?",
+            "Can you list some of the cons?"
+        ],
+        "responses": [
+            "Respone for 9"
+        ]
+      },    
+      {
+        "tag": "10",
+        "patterns": [
+            "What has worked in the past when you’ve cut back on your use?",
+            "What did work in the past when you’ve cut back on your use?",
+            "What worked in the past when you've cut back on alcohol?",
+            "What worked in the past when you've reduced consumption of alcohol?"
+        ],
+        "responses": [
+          "Respone for 10"
+        ]
+      }, 
+      {
+        "tag": "11",
+        "patterns": [
+            "It sounds to me like when you use other coping mechanisms you’ve been more successful in cutting back on your alcohol use. But right now you have a lot going on with your wife. Have you thought about an Alzheimer’s support group or something that could help you have a circle that could help you with what you are dealing with your wife?",
+           "Sounds like when you use other coping mechanisms you’ve been more successful in cutting back on your alcohol use. Right now, however, you have a lot going on with your wife. Have you thought about an Alzheimer’s support group or something that could help you have a circle that could help you with what you are dealing with your wife?",
+           "Hm, I believe that when you use other coping mechanisms, you are more successful in cutting back on your alcohol use. However, it seems that you have alot going on with your wife. Have you thought of an Alzheimer's support group? Or a circle that could help you with what you are going through with your wife?",
+           "It seems that when you use other coping mechanisms, you are more successful in cutting back on your alcohol use. However, it seems that you have alot going on with your wife. Have you thought of an Alzheimer's support group? Or a circle that could help you with what you are going through with your wife?"
+        ],
+        "responses": [
+          "Respone for 11"
+        ]
+      }, 
+      {
+        "tag": "12",
+        "patterns": [
+            "Now I have one other question. We did talk about your alcohol use. Do you feel willing to cut back right now on a scale of one to ten how willing you would say that you are?",
+            "I have another question.  We did talk about your alcohol use. Do you feel willing to cut back right now on a scale of one to ten how willing you would say that you are?",
+            "Now I have one more question. We've talked about your alcohol use. Do you feel willing to cut back right now? On a scale of one to ten, how willing would you say that you are?",
+            "I have another question. We've talked about your alcohol use. Do you feel willing to cut back right now? On a scale of one to ten, how willing would you say that you are?"
+        ],
+        "responses": [
+          "Respone for 12"
+        ]
+      }, 
+      {
+        "tag": "13",
+        "patterns": [
+            "How confident are you that you would be able to do that?",
+            "How confident are you that you'd be able to do that?",
+            "Now, how confident are you that you would be able to do that?",
+            "So how confident are you that you'd be able to do that?"
+        ],
+        "responses": [
+            "Respone for 13"
+        ]
+      }, 
+      {
+        "tag": "14",
+        "patterns": [
+            "Okay. so it sounds like there is a little bit of discrepancy between your willingness and your confidence.  Maybe we can come up with some solutions together. Would you be ok with talking about that?",
+            "Okay. It sounds like there's a little bit of discrepancy between your willingness and your confidence.  Maybe we can come up with some solutions together. Would you be ok with talking about that?",
+            "It sounds like there is some difference between your willingness and confidence. We could come up with some solutions together. Is that fine with you?",
+            "Hm, it seems like there is some difference between your willingness and confidence. We could come up with some solutions together. Would you like that?"
+        ],
+        "responses": [
+            "Respone for 14"
+        ]
+      }, 
+      {
+        "tag": "15",
+        "patterns": [
+            "Okay, so maybe instead of cutting out alcohol altogether you could cut back at first. How much are you drinking when you are drinking alcohol?",
+            "Okay, so maybe instead of cutting out alcohol altogether you could cut back at first. How much do you drink?",
+            "Instead of cutting out alcohol completely, you could cut back at first. How much alcohol do you normally drink?",
+            "Well instead of cutting out alcohol completely, you could cut back a few drinks. How much do you normally drink?"
+        ],
+        "responses": [
+          "Respone for 15"
+        ]
+      }, 
+      {
+        "tag": "16",
+        "patterns": [
+            "Would you be willing to first eliminate the shots and drink only beer?",
+            "Are you willing to first eliminate the shots and drink only beer?",
+            "Can you stop drinking the shots and only drink beer?",
+            "Could you stop drinking the shots and "
+        ],
+        "responses": [
+            "Respone for 16"
+        ]
+      }, 
+      {
+        "tag": "17",
+        "patterns": [
+            "How much beer are you drinking?",
+            "How much beer do you drink?",
+            "Alright. How much beer do you drink every day?",
+            "So how much beer are you drinking daily?"
+        ],
+        "responses": [
+            "Respone for 17"
+        ]
+      }, 
+      {
+        "tag": "18",
+        "patterns": [
+            "So maybe if we can drink two 12-ounces a night at first to cut back and then slowly see how that goes? What about some exercise? Did it work for you in the past to help with your stress?",
+            "So maybe if we can drink two 12-ounces a night at first to cut back and then slowly see how that goes? How about some exercise? Did it work for you in the past to help with your stress?",
+            "Can you drink two 12-ounces a night at first to cut back and then see how that goes? What about some exercise? Did it work for you in the past to help with your stress?",
+            "Could you drink two 12-ounces a night at first to cut back and then see how that goes for you? How about some exercise? Has that worked for you in the past to help deal with the stress?"
+        ],
+        "responses": [
+            "Respone for 18"
+        ]
+      }, 
+      {
+        "tag": "19",
+        "patterns": [
+            "Yes, maybe even some in-home exercise would help a little bit with your stress relief.  It sounds like you are willing to work on this. Maybe I can talk to you about this again at the next visit?",
+            "Yes, maybe even some in-home exercise would help a bit with your stress relief.  It sounds like you are willing to work on this. Maybe I can talk to you about this again at the next visit?",
+            "Some in-home exercise may help relieve some of your stress. It sounds like you are willing to work with this plan. Can we discuss this on your next visit?",
+            "In-home exercise could help relieve some of your stress. It sounds like you are willing to work with this plan. Can we discuss this on your next visit?",
+            "Some in-home exercise may help relieve some of your stress. It sounds like you are on-board with this idea. Can we discuss this on your next visit?"
+        ],
+        "responses": [
+            "Respone for 19"
+        ]
+      }, 
+      {
+        "tag": "20",
+        "patterns": [
+            "Okay great. It was nice meeting you and nice talking to you.",
+            "Okay good. It was really nice to meet you.",
+            "Great, thank you for coming. It was nice to meeting you. Have a good day.",
+            "Thank you for coming. It was nice to meet you. Have a good day."
+        ],
+        "responses": [
+          "Respone for 20"
+        ]
+      }
+    ]
+  }
